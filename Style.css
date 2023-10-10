@@ -16,7 +16,7 @@ body{
     text-align: center;
     margin-bottom: 20px;
 }
-.skills {
+.skill {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -25,10 +25,6 @@ body{
     margin-bottom: 20px;
 }
 .education {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.communication {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -44,10 +40,16 @@ body{
     text-align: center;
 }
 .training_table{
+    border-collapse: collapse;
+    width: 100%;
     text-align: center;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+.training_table th, td{
+    border: 1px solid black;
+    padding: 8px;
 }
 .banner{
     background-image: url("https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1638&q=80");
@@ -65,6 +67,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -147,9 +150,28 @@ body{
     margin: 0 auto;
 }
 */
-#aboutme ul{
+.cvsection ul{
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
 }
+#backToTopButton {
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #backToTopButton a:visited{
+    color: white;
+  }
+  
+  #backToTopButton:hover {
+    background-color: #0056b3; /* Change the color on hover */
+  }
