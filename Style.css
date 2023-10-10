@@ -1,0 +1,155 @@
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;  
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.personal {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.skills {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.experience {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.education {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.communication {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.leadership {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.eligibility {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.training{
+    text-align: center;
+}
+.training_table{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner{
+    background-image: url("https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1638&q=80");
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.banner nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    padding: 20px;
+}
+.banner nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.banner nav li{
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.banner nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+}
+.banner nav a:hover{
+    background-color: rgb(72, 29, 107);
+}
+#banner-text{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+}
+.banner h1{
+    font-size: 5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 4px black;
+}
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(225, 184, 129);
+    z-index: -1;
+}
+.cvsection{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 90%;
+}
+.cvsection h1{
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.profilepic{
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    margin: 0 auto;   
+}
+/*
+.list{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+*/
+#aboutme ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
